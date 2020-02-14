@@ -45,7 +45,7 @@ setup(
             'UTscapy = scapy.tools.UTscapy:main'
         ]
     },
-    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4',
+    python_requires='!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4',
     # pip > 9 handles all the versioning
     extras_require={
         'basic': ["ipython"],
